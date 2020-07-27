@@ -8,4 +8,4 @@ pictures-rotated90.pdf: pictures.pdf
 	pdf90 pictures.pdf 
 
 pictures.pdf: pictures.obj
-	tgif -print -pdf pictures.obj
+	tgif -print -pdf -color pictures.obj
